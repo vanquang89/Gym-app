@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.pc.gym_club.CongCuHoTro">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#E73218"
+        android:text="Công Cụ Hỗ Trợ"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+    <Button
+        android:id="@+id/btnTinhBMI"
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:background="@drawable/dolove"
+        />
+        <Button
+            android:id="@+id/btnCountDown"
+            android:layout_marginLeft="50dp"
+            android:layout_width="140dp"
+            android:layout_height="180dp"
+            android:background="@drawable/you"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+        <Button
+            android:id="@+id/btnTinhTDEE"
+            android:layout_width="140dp"
+            android:layout_height="180dp"
+            android:background="@drawable/forever"
+            />
+        <Button
+            android:id="@+id/btnCountUp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="140dp"
+            android:layout_height="180dp"
+            android:background="@drawable/baby"
+            />
+
+    </LinearLayout>
+</LinearLayout>

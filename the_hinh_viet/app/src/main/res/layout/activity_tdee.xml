@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.gym_club.TDEE">
+
+
+<LinearLayout
+    android:background="#E73218"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính TDEE - Lượng Calor Tối Thiểu Trong 1 Ngày"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        />
+</LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Hãy cho chúng tôi biết:"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Giới Tính:"
+            android:textSize="14sp"
+            android:textColor="#E73218"
+            />
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"></Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:paddingTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiều Cao (cm):"
+            android:textSize="14sp"
+            android:textColor="#E73218"
+            android:id="@+id/tvChieuCao" />
+        <EditText
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextNumber5"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cân Nặng (kg):"
+            android:id="@+id/tvCanNang"
+            android:textSize="14sp"
+            android:textColor="#E73218"/>
+        <EditText
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextNumber6"
+            android:layout_gravity="right" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:paddingTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuổi của bạn:"
+            android:id="@+id/tvTuoi"
+            android:textSize="14sp"
+            android:textColor="#E73218"/>
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextNumber7"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvGroupPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       style="@style/Select_Person"
+        android:text="Nhóm Người:"
+        android:textColor="#E73218"
+        android:textSize="14sp"
+        android:layout_margin="10dp"
+        />
+    <Spinner
+        android:paddingTop="10dp"
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/tvGroupPerson"
+        android:layout_marginRight="10dp"
+
+        ></Spinner>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <Button
+        android:background="@drawable/button_nomarl"
+        android:textColor="#ffffffff"
+        android:text="Kết quả TDEE"
+        android:id="@+id/btnTDEE"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvTDEE"
+        android:textColor="#E73218"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lời khuyên:"
+        android:textColor="#E73218"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:text="Nếu bạn muốn giảm cân, hãy giảm lượng calo tiêu thụ hàng ngày xuống và kết hợp với tập luyện để đốt cháy lượng mỡ thừa trong cơ thể. Lời khuyên của các chuyên gia bạn chỉ nên cắt giảm 200-500 calo mỗi ngày để có thể giảm được 0.9-1.81 kg 1 tháng. Bạn không nên cắt giảm nhiều hơn bởi việc giảm cân quá nhanh có thể ảnh hưởng đến sức khỏe."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:text="Nếu bạn muốn tăng cân, hãy cung cấp thêm calo cho cơ thể. Nên nhớ phải có năng lượng dư ra mỗi ngày bạn mới có thể tăng cân được."
+        />
+
+</LinearLayout>

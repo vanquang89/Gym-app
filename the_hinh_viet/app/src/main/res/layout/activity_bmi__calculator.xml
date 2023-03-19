@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    tools:context="com.example.pc.gym_club.BMI_Calculator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E73218">
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chỉ Số BMI"
+        android:textSize="18sp"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiều Cao (m):"
+            android:textSize="18sp"
+            android:textColor="#E73218"
+            android:id="@+id/tvChieuCao1" />
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:paddingTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextNumber3"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_margin="10dp"
+            android:paddingTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cân Nặng (kg):"
+            android:id="@+id/tvCanNang1"
+            android:textSize="18sp"
+            android:textColor="#E73218"/>
+        <EditText
+            android:paddingTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextNumber4"
+            android:layout_gravity="right" />
+    </LinearLayout>
+    <Button
+        android:background="@drawable/button_nomarl"
+        android:layout_margin="10dp"
+        android:id="@+id/btnBMI"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Tính BMI"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/textViewBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E73218"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/textViewMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000FF"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:text="Lời khuyên:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E73218"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/textViewLoiKhuyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        />
+</LinearLayout>

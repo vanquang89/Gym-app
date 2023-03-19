@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_bai_tap_bap_tay_truoc.xml" value="0.264" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_bai_tap_bung.xml" value="0.264" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_bai_tap_cang_tay.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_bai_tap_co.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_bai_tap_co_bap_chuoi.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_bai_tap_co_cau_vai.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_bai_tap_co_tay_sau.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_bai_tap_co_thang.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_bai_tap_dui_truoc.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_bai_tap_nguc.xml" value="0.264" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_bai_tap_vai.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_baptaythanhta.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_cauvaivoicap.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_cauvaivoitadon.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_cauvaivoitatay.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_cong_cu_ho_tro.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_cotaysauvoicap.xml" value="0.1" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_cuoncotaytruoc.xml" value="0.1" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_declineabcrunch.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_dongtac1.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_dumbbellcurl.xml" value="0.1" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_dumbbellhammer.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_epnguckeocap.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_ghedocdaynguc.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_ho_so.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_inclineknee.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_mang_co_sau.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_mang_co_truoc.xml" value="0.2" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_menu_app.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_menu_screen.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_namghedaynguc.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_namghengangfly.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_namvoithanhta.xml" value="0.1" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_ngoighedocthanhta.xml" value="0.1" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_ngoivotthanhta.xml" value="0.1" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_nguc1.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_start_screen.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_start_screen2.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_tapbungtoandien.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_tapbungxadon.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_tdee.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_verticalknee.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/activity_xakepvoinguc.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/app_bar_menu_screen.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/content_menu_screen.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/DUNG/Desktop/sua vo day/tap the hinh/the_hinh_viet/app/src/main/res/layout/nav_header_menu_screen.xml" value="0.2028985507246377" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="12">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="9" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="11" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="11">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="5" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="7" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

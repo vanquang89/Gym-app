@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pc.gym_club">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".MenuApp"
+            android:exported="true"
+             />
+        <activity android:name=".BMI_Calculator" android:exported="true"
+
+            ></activity>
+        <activity android:name=".TDEE"></activity>
+        <activity android:name=".MangCoTruoc"></activity>
+
+        <activity android:name=".MangCoSau"></activity>
+        <activity android:name=".StartScreen" />
+        <activity android:name=".DinhDuong" />
+        <activity android:name=".ChuongTrinh" />
+        <activity android:name=".CongCuHoTro" />
+        <activity android:name=".DongHoDem" />
+        <activity android:name=".BaiTapNguc" />
+        <activity android:name=".BaiTapCoXo" />
+        <activity android:name=".BaiTapCoThang" />
+        <activity android:name=".BaiTapBapTayTruoc" />
+        <activity android:name=".BaiTapCangTay" />
+        <activity android:name=".BaiTapBung" />
+        <activity android:name=".BaiTapCoCauVai" />
+        <activity android:name=".BaiTapCoTaySau" />
+        <activity android:name=".BaiTapCoLungDuoi" />
+        <activity android:name=".BaiTapCoMong" />
+        <activity android:name=".BaiTapCoDuiSau" />
+        <activity android:name=".BaiTapDuiTruoc" />
+        <activity android:name=".BaiTapVai" />
+        <activity android:name=".BaiTapCoBapChuoi" />
+        <activity android:name=".exercise.Nguc1" />
+        <activity android:name=".HoSo" />
+        <activity android:name=".huongdandongtac.DumbbellCurl"/>
+        <activity android:name=".huongdandongtac.DumbbellHammer"/>
+        <activity android:name=".huongdandongtac.BapTayThanhTa"/>
+        <activity android:name=".huongdandongtac.CauVaiVoiTaTay"/>
+        <activity android:name=".huongdandongtac.CauVaiVoiTaDon"/>
+        <activity android:name=".huongdandongtac.CauVaiVoiCap"/>
+        <activity android:name=".huongdandongtac.NamVotThanhTa"/>
+        <activity android:name=".huongdandongtac.CoTaySauVoiCap"/>
+        <activity android:name=".huongdandongtac.NgoiGheDocThanhTa"/>
+        <activity android:name=".huongdandongtac.NgoiVotThanhTa"/>
+        <activity android:name=".huongdandongtac.CuonCoTayTruoc"/>
+        <activity android:name=".huongdandongtac.NamGheDayNguc"/>
+        <activity android:name=".huongdandongtac.GheDocDayNguc"/>
+        <activity android:name=".huongdandongtac.NamGheNgangFly"/>
+        <activity android:name=".huongdandongtac.XaKepChoNguc"/>
+        <activity android:name=".huongdandongtac.EpNgucKeoCap"/>
+        <activity android:name=".huongdandongtac.InclineKnee"/>
+        <activity android:name=".huongdandongtac.VerticalKnee"/>
+        <activity android:name=".huongdandongtac.DeclineABCrunch"/>
+        <activity android:name=".huongdandongtac.TapBungToanDien"/>
+        <activity android:name=".huongdandongtac.TapBungXaDon"/>
+    </application>
+
+
+</manifest>

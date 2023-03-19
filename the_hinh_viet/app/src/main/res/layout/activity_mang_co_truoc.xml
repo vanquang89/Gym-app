@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Cơ Trước"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#E73218"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:background="@drawable/cotruoc"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnCo"
+                android:textColor="#FFFFFF"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+               android:background="@drawable/button_nomarl"
+                android:text="Cổ"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnCoVai"
+                android:textColor="#FFFFFF"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_nomarl"
+                android:text="Vai"
+                android:textSize="16dp" />
+
+
+            <Button
+                android:id="@+id/btnBapTayTruoc"
+                android:textColor="#FFFFFF"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_nomarl"
+                android:text="Bắp Tay Trước"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnCangTay"
+                android:textColor="#FFFFFF"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_nomarl"
+                android:text="Cẳng Tay"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnNguc"
+                android:textColor="#FFFFFF"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_nomarl"
+                android:text="Ngực"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnBung"
+                android:textColor="#FFFFFF"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+               android:layout_margin="5dp"
+                android:background="@drawable/button_nomarl"
+                android:text="Bụng"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnCoDuiTruoc"
+                android:textColor="#FFFFFF"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+               android:layout_margin="5dp"
+                android:background="@drawable/button_nomarl"
+                android:text="Đùi Trước"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginRight="5dp"
+        >
+
+        <ImageView
+           android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/btnQuayLai2"
+            android:textColor="#E73218"
+            style="@style/Button_view"
+            android:layout_width="74dp"
+            android:text="Menu"
+            android:layout_marginRight="135dp"
+            android:textSize="15dp"
+            android:gravity="left"
+            android:background="@android:color/transparent"
+            />
+
+
+        <Button
+            android:id="@+id/btnCoTruoc"
+            android:textColor="#E73218"
+            style="@style/Button_view"
+            android:layout_width="74dp"
+            android:text="Cơ sau"
+            android:textStyle="normal"
+            android:textSize="15dp"
+            android:gravity="right"
+            android:paddingTop="19dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:background="@drawable/next"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

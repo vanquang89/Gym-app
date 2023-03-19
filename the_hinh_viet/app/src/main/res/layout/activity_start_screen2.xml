@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pc.gym_club.StartScreen2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#E73218"
+        >
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Thông tin của bạn"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:text="Nam"
+            android:id="@+id/btnNam"
+            style="@style/Button_view"
+
+            android:layout_marginLeft="30dp"
+            android:background="@android:color/transparent"
+            />
+        <ImageView
+           style="@style/Image_butoon_view"
+
+            />
+        <Button
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:text="Nữ"
+        android:id="@+id/btnNu"
+        style="@style/Button_view"
+        android:layout_marginLeft="160dp"
+        android:background="@android:color/transparent"
+        />
+        <ImageView
+
+            style="@style/Image_butoon_view"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:id="@+id/tvGioiTinh"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:textColor="#E73218"
+            android:gravity="center"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chiều Cao (m)"
+        android:textSize="18sp"
+        android:textColor="#E73218"
+        android:id="@+id/tvChieuCao" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextNumber1"
+        android:layout_gravity="right" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cân Nặng (kg)"
+        android:id="@+id/tvCanNang"
+        android:textSize="18sp"
+        android:textColor="#E73218"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextNumber2"
+        android:layout_gravity="right" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:textSize="14dp"
+            android:id="@+id/btnQuayLai1"
+            style="@style/Button_view"
+            android:text="Quay Lại"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btnTiepTuc3"
+            android:layout_marginLeft="162dp"
+            android:textSize="14sp"
+            style="@style/Button_view"
+            android:layout_gravity="center"
+            android:text="Tiếp Tục"
+            android:background="@android:color/transparent"
+            />
+        <ImageView
+            android:background="@drawable/next"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>

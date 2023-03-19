@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pc.gym_club.HoSo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E73218"
+        android:gravity="center"
+        android:text="Hồ Sơ Cá Nhân"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imAvatar"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/avatar"
+        />
+    <TextView
+        android:id="@+id/tvHoten1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/tvGT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/tvChieuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/tvCann"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/tvBmii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"></TextView>
+    <Button
+        android:layout_gravity="center"
+         android:id="@+id/btnGetData"
+        android:paddingRight="10dp"
+        android:background="@android:color/transparent"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="Cập nhật thông tin"
+        android:textColor="#E73218"
+        />
+</LinearLayout>

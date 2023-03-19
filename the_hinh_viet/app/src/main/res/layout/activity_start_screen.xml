@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.example.pc.gym_club.StartScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E73218"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Thông tin của bạn"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    </LinearLayout>
+    <ImageView
+        android:src="@drawable/avatar"
+        android:id="@+id/imageAvatar"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        />
+    <Button
+        android:id="@+id/btnGetPicture"
+        android:onClick="btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Nhấn để thêm ảnh đại diện"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:gravity="center"
+        android:id="@+id/editTextHoTen"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="Nhập tên của bạn"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#E73218"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiều Cao (cm):"
+            android:textSize="18sp"
+            android:textColor="#E73218"
+            android:id="@+id/tvChieuCao" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextNumber1"
+            android:layout_gravity="right" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cân Nặng (kg):"
+            android:id="@+id/tvCanNang"
+            android:textSize="18sp"
+            android:textColor="#E73218"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextNumber2"
+            android:layout_gravity="right" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giới tính của bạn: "
+            android:id="@+id/tvGioiTinhStart"
+            android:textSize="18sp"
+            android:textColor="#E73218"/>
+       <Spinner
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+           ></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/save"
+            />
+    <Button
+        android:id="@+id/btnSave"
+        android:paddingRight="10dp"
+        android:background="@android:color/transparent"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="Lưu Thông Tin"
+        android:textColor="#E73218"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginRight="10dp"
+        >
+        <Button
+            android:layout_marginTop="5dp"
+            android:paddingTop="20dp"
+            android:id="@+id/btnTiepTuc2"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            android:gravity="right"
+            android:textColor="#E73218"
+            android:text="Tiếp Tục"
+            android:background="@android:color/transparent"
+             />
+        <ImageView
+            android:background="@drawable/next"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

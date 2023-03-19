@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.pc.gym_club.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="WELCOME TO GYM CLUB!"
+        android:textColor="#E73218"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="40dp"
+        />
+    <ImageView
+        android:background="@drawable/llg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="10dp"
+        >
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:id="@+id/btnTiepTuc1"
+            style="@style/Button_view"
+            android:text="Tiếp Tục"
+            android:textSize="14dp"
+            android:textStyle="normal"
+            android:background="@android:color/transparent"
+            />
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:background="@drawable/next"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
